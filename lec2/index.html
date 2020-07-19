@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul 
+        {
+        position: relative;
+        }
+        
+        li ul 
+        { 
+        display: none; 
+        }
+        
+        li:hover > ul 
+        {
+        display: block;
+        }
+        </style>
+</head>
+<body>
+    <ul style="background-color: brown;">
+        <li id="one">
+            1
+            <ul id="on">
+                <li>
+                  1.1
+                </li>
+                <li>
+                    1.2
+                </li>
+            </ul>
+
+        </li>
+        <li>
+           2 
+           <ul id="on">
+            <li>
+              2.1
+            </li>
+            <li>
+                2.2
+            </li>
+        </ul>
+        </li>
+        <li>
+           3 
+           <ul id="on">
+            <li>
+              3.1
+            </li>
+            <li>
+                3.2
+            </li>
+        </ul>
+        </li>
+        <li>
+            4
+            <ul id="on">
+                <li>
+                  4.1
+                </li>
+                <li>
+                    4.2
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+   
+</body>
+</html>
